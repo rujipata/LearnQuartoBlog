@@ -86,6 +86,7 @@ After rendering and changing the config, `docs` will be created and used as the 
 3. `git add .`
 4. `git commit -m <your message>`
 5. `git push`
+6. Navigate to your site. Your GitHub site address can be found from `Settings > Pages`.
 
 
 ## Resources:
