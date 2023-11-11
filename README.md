@@ -71,7 +71,11 @@ After rendering and changing the config, `docs` will be created and used as the 
 
 > git push -u origin main
 
-
+6. Configure your GitHub repository to publish from the `docs` directory of your `main` branch. 
+    - From `settings` in `GitHub`, go to `pages`.
+    - Under `Build and deployment`, select `deploy from a branch` under `source`
+    - Under `Branch`, select `main` and then `/docs`. 
+    - click `Save`.
 
 
 ## Resources:
