@@ -23,7 +23,7 @@
     - `styles.css`
 3. (optional) Create a `README.md` file.
 
-## Initialize emty `Git` respository
+## Initialize empty `Git` respository
 
 1. Open `Terminal` in `VS code` (`Ctrl+` `).
 2. In the root of the working project, type:
