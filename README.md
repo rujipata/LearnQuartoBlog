@@ -80,6 +80,13 @@ After rendering and changing the config, `docs` will be created and used as the 
     - Under `Branch`, select `main` and then `/docs`. 
     - click `Save`.
 
+## Steps to edit Quarto Blog after the above setup
+1. Edit your blog contents and save.
+2. `quarto render `
+3. `git add .`
+4. `git commit -m <your message>`
+5. `git push`
+
 
 ## Resources:
 - [Quick guide from Quarto website](https://quarto.org/docs/websites/website-blog.html)
