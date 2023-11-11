@@ -1,9 +1,12 @@
 # Learn how to make a blog using Quarto with Virsual Studio Code
+
 [Quarto Overview](https://quarto.org/)
 ## Get started
 1. Download and install `Quarto` from https://quarto.org/docs/get-started/
 2. Install `Quarto` extension on `VS code`
+
 ## Create a basic blog
+
 1. Create and open a working folder in `VS code`.
 2. `Ctrl+shift+P` and select `Quarto:Create Project` and then `Blog Project`. Name the working folder (project). The following files and folders will automatically created.
     - `posts` folder which contains `_metadata.yml` file and the following folders: `post-with-code` and `welcome`. 
@@ -19,7 +22,9 @@
     - `profile.jpg`
     - `styles.css`
 3. (optional) Create a `README.md` file.
+
 ## Initialize emty `Git` respository
+
 1. Open `Terminal` in `VS code` (`Ctrl+` `).
 2. In the root of the working project, type:
     > `git init`
@@ -40,14 +45,10 @@ After rendering, the following file and folders will be added:
 >
 >>  `output-dir: docs`
 
-Note: By default, `quarto` uses `.quarto` as the `output-dir`
-
 2. In `terminal`, type:
 > `quarto render`
 
-After rendering and changing the config, `docs` will be created and used as the new `output-dir`.
-
-3. Delete `.quarto` folder.
+After rendering and changing the config, `docs` will be created and used as the `output-dir`.
 
 ## Publish to GitHub
 1. Add `nojekyll` to the root of your repository that tells GitHub Pages not to do additional processing of your published site using Jekyll (the GitHub default site generation tool):
@@ -70,6 +71,8 @@ After rendering and changing the config, `docs` will be created and used as the 
 > git branch -M main
 
 > git push -u origin main
+
+*Note: After this initial `push`, you can use only **`git push`** for the following `push` you need to make.*
 
 6. Configure your GitHub repository to publish from the `docs` directory of your `main` branch. 
     - From `settings` in `GitHub`, go to `pages`.
